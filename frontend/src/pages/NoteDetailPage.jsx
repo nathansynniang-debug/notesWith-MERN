@@ -68,13 +68,14 @@ const NoteDetailPage = () => {
   }
   
 
-  if(loading){
-    return (
-      <div clasName="min-h-screen bg-base-200 flex items-center justify-center">
-        <LoaderIcon className="animate-spin size-10" />
-      </div>
-    )
-  }
+  if (loading) {
+  return (
+    <div className="max-w-7xl min-h-screen bg-base-200 flex flex-col items-center justify-center">
+      <LoaderIcon className="animate-spin size-10" />
+      <span className="text-lg font-bold mt-2">Loading, Please wait...</span>
+    </div>
+  )
+}
 
   return (
     <div className="min-h-screen bg-base-200">
