@@ -24,22 +24,26 @@ A full‑stack **Notes Management Application** built with the **MERN stack (Mon
 ---
 
 ## 📂 Project Structure
+## 📂 Project Structure
+
+```
 notesWith-MERN/
 │
 ├── backend/          # Express server & API routes
 │   ├── models/       # Mongoose schemas
 │   ├── config/       # Configuration for Database Connection and Redis Limiter
 │   ├── routes/       # API endpoints
-│   └── controllers/  # Business logic
+│   ├── middleware/   # middleware for ratelimiting
+│   └── controllers/  # CRUD logic
 │
 ├── frontend/         # React client
 │   ├── src/
 │   │   ├── components/  # UI components
 │   │   ├── pages/       # App pages
-│   │   └── services/    # API calls
+│   │   └── lib/         # API calls
 │
 └── README.md
-
+```
 ---
 
 ## ⚙️ Installation & Setup
