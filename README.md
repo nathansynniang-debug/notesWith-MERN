@@ -62,19 +62,29 @@ notesWith-MERN/
    git clone https://github.com/your-username/notes-mern.git
    cd notesWith-MERN
    ```
+
+2. **Fill environment variables**
+   Ensure the following environment variables are included in the backend directory
+   ```
+   PORT=5001               #you may use any available port, here 5001 is used
+   MONGO_URI=              #use the URI of your mongoDB server
+   UPSTASH_REDIS_REST_URL=   #obtain this from upstash
+   UPSTASH_REDIS_REST_TOKEN=   #obtain from upstash
+   NODE_ENV=production   #put it in production if available for production, else use any other string
+   ```
    
-3. **Compile for production**
+4. **Compile for production**
    Ensure your System has npm installed and use the following command:
    ```
    npm run build
    ```
 
-4. **Start the server**
+5. **Start the server**
    ```
    npm run start
    ```
 
-Voila! You have successfully installed and run the full stack application. You may open the website on your own browser in http://localhost:5001
+Voila! You have successfully installed and run the full stack application. You may open the website on your own browser in http://localhost:5001/
 
 ## 🧪 API Endpoints (Backend)
 
