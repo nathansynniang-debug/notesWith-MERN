@@ -2,6 +2,7 @@
 
 A full‑stack **Notes Management Application** built with the **MERN stack (MongoDB, Express.js, React, Node.js)**. It allows users to create, edit, delete, and organize notes with authentication and a responsive UI.
 
+Access the deployed version here: https://noteswith-mern.onrender.com
 ---
 
 ## Features
