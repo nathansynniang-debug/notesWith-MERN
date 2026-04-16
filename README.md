@@ -59,7 +59,7 @@ notesWith-MERN/
    Open Command Prompt on Windows or bash on Linux or macOS terminal and use the following command:
    
    ```
-   git clone https://github.com/your-username/notes-mern.git
+   git clone https://github.com/nathansynniang-debug/notesWith-MERN.git
    cd notesWith-MERN
    ```
 
