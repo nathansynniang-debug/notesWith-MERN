@@ -23,7 +23,7 @@ A full‑stack **Notes Management Application** built with the **MERN stack (Mon
 
 ---
 
-## 📂 Project Structure
+
 ## 📂 Project Structure
 
 ```
